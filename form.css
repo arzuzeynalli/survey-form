@@ -1,15 +1,40 @@
-#title{
+body {
+    background-image: url(https://learn.g2.com/hs-fs/hubfs/software-development.jpg?width=2121&name=software-development.jpg);
+}
+#title {
     text-align: center;
     font-family: 'Kiwi Maru', serif;
     font-size: 50px;
 }
-#description{
+
+#description {
     text-align: center;
     font-family: 'Kiwi Maru', serif;
     font-size: 20px;
     margin-bottom: 20px;
+
+}
+
+#survey-form {
+    position: relative;
+    left: 430px;
+    background-color: rgb(169, 204, 255) ;
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+    width: 480px;
+    text-align: center;
+    opacity: 1;
     
 }
-#survey-form{
-    text-align: center;
+
+@media(max-width: 480px) {
+    #survey-form {
+        padding: 2.5rem
+    }
+        }
+
+    button{
+    font-size: 30px; 
+    background-color: chartreuse;
+    }
 }
