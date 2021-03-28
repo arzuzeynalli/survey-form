@@ -15,18 +15,18 @@
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
         <div1>
-            <label for="name">Enter your name</label>
+            <label id="name-label" for="name">Enter your name</label>
             <input id="name" type="text" placeholder="First name" required>
         </div1>
         <p>
         <div class="form">
-            <label for="email">Enter your email</label>
+            <label id="email-label" for="email">Enter your email</label>
             <input id="email" type="email" placeholder="@gamil.com" required>
         </div>
         </p>
         <p>
         <div class="form">
-            <label for="number">Enter your age</label>
+            <label id="number-label" for="number">Enter your age</label>
             <input type="number" name="age" id="number" placeholder="your age" min="18" max="35">
         </div>
         </p>
@@ -59,22 +59,23 @@
                     <option value="other">Other</option>
                 </select></p>
 
-                <div class="form">
-                    <label for="checkbox">What you are expect to learn from the course?</label>
-                    <p><input type="checkbox" id="checkbox" name="checkbox" value="html+css">Html</p>
-                    <p><input type="checkbox" id="checkbox" name="checkbox" value="css">CSS</p>
-                    <p><input type="checkbox" id="checkbox" name="checkbox" value="js">Javascript</p>
-                    <p><input type="checkbox" id="checkbox" name="checkbox" value="other">Other</p>
-                </div>
+            <div class="form">
+                <label for="checkbox">What you are expect to learn from the course?</label>
+                <p><input type="checkbox" id="checkbox" name="checkbox" value="html+css">Html</p>
+                <p><input type="checkbox" id="checkbox" name="checkbox" value="css">CSS</p>
+                <p><input type="checkbox" id="checkbox" name="checkbox" value="js">Javascript</p>
+                <p><input type="checkbox" id="checkbox" name="checkbox" value="other">Other</p>
+            </div>
 
-                <div class="form">
-                    <label for="text">Any comments or suggestions?</label>
-                    <p><textarea id="text" name="text" rows="5" cols="30" placeholder="Enter your comments here:"></textarea></p>
-                    </div>
+            <div class="form">
+                <label for="text">Any comments or suggestions?</label>
+                <p><textarea id="text" name="text" rows="5" cols="30"
+                        placeholder="Enter your comments here:"></textarea></p>
+            </div>
 
-                    <button id="sumbit">Sumbit</button>
+            <button id="submit" type="submit">Sumbit</button>
 
-             </form>
+    </form>
 
 </body>
 
