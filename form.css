@@ -18,12 +18,11 @@ body {
 #survey-form {
     position: relative;
     left: 430px;
-    background-color: rgb(169, 204, 255) ;
+    background-color: rgba(169, 204, 255,0.5) ;
     padding: 2.5rem 0.625rem;
     border-radius: 0.25rem;
     width: 480px;
     text-align: center;
-    opacity: 1;
     
 }
 
